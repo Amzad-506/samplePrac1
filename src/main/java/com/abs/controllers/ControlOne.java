@@ -13,6 +13,6 @@ public class ControlOne {
 	public ResponseEntity<String> welCome(){
 		
 		count++;
-		return new ResponseEntity<String>("Hello Azam"+count ,HttpStatus.OK);
+		return new ResponseEntity<String>("Hello Amzad Bhai.."+count ,HttpStatus.OK);
 	}
 }
