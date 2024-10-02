@@ -10,6 +10,6 @@ public class ControlOne {
 
 	@GetMapping("/welcome")
 	public ResponseEntity<String> welCome(){
-		return new ResponseEntity<String>("Welcome",HttpStatus.OK);
+		return new ResponseEntity<String>("Hello Azam",HttpStatus.OK);
 	}
 }
