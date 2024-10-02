@@ -19,7 +19,6 @@ spec:
     containers:
     - name: mavenwebappcontainer
       image: amzad24/prac
-      imagePullPolicy: Always
       ports:
       - containerPort: 9000
 ---
